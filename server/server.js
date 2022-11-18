@@ -10,7 +10,7 @@ app.use(express.static('Pics'))
 app.use(cors())
 
 //endpoints
-app.get('/portfolio', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'))
 })
 app.get('/css', (req, res) => {
