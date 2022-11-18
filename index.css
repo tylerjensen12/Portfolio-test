@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../pics/homeBackground.jpg');
+    background-image: url('/pics/homeBackground.jpg');
     background-size: cover;
     height: 110vh;
 }
