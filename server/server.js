@@ -1,13 +1,10 @@
 const express = require('express')
-const cors = require('cors')
 const path = require('path')
 
 const app = express()
 
 app.use(express.json())
 app.use(express.static('Pics'))
-
-app.use(cors())
 
 //endpoints
 app.get("/", (req, res) => {
